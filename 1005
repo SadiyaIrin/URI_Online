@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-  double A,B,Avg;
-  cin >> A >> B >> fixed >> setprecision(1);
-  Avg = ((A*3.5) + (B*7.5)) / (3.5 + 7.5);
-  cout << "MEDIA = " << Avg << fixed << setprecision(4) << endl;
+  double A,B,Avg = 0;
+  cin >>fixed >> setprecision(1) >> A >> B;
+  Avg = ((A * 3.5) + (B * 7.5)) / (3.5 + 7.5);
+  cout <<fixed << setprecision(5) << "MEDIA = "<< Avg<<endl;
 
   return 0;
 }
