@@ -1,0 +1,16 @@
+#include<bits/stdc++.h> 
+using namespace std; 
+
+int main()
+{
+  int Emp_No,Work_Hrs;
+  float Amount_Per_Hr;
+  cin >> Emp_No >> Work_Hrs;
+  cin >> fixed >> setprecision(2) >> Amount_Per_Hr;
+
+  cout <<"NUMBER = "<< Emp_No <<endl
+  << fixed << setprecision(2) <<"SALARY = U$ "
+  << Work_Hrs * Amount_Per_Hr << endl;
+
+  return 0;
+}
