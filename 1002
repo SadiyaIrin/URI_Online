@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+  double R,A,pi=3.14159;
+  cin >> fixed >> setprecision(2) >> R;
+  cout << fixed << setprecision(4) <<"A=" << pi*(R*R) << endl;
+  
+  return 0;
+}
