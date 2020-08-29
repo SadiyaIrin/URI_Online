@@ -1,0 +1,18 @@
+#include<bits/stdc++.h> 
+using namespace std; 
+
+int main()
+{ 
+  string Emp_Name;
+  double Sellers_salary,Total_Sell,Total_Salary;
+  getline (cin, Emp_Name);
+
+  cin >> fixed >> setprecision(2) >> Sellers_salary >> Total_Sell;
+
+  Total_Salary = Total_Sell * .15 + Sellers_salary;
+
+  cout << fixed << setprecision(2) <<"TOTAL = R$ "<< Total_Salary <<"\n";
+
+  
+  return 0;
+}
