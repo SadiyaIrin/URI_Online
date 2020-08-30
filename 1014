@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int X;
+   float Y,Avg_Consumption;
+    cin>> X >> fixed >> setprecision(1) >> Y;
+    
+    Avg_Consumption = X / Y;
+
+    cout<< fixed << setprecision(3)<< Avg_Consumption 
+    <<" km/l"<<endl;
+
+
+return 0;
+}
