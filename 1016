@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int distance,Time_to_get_minutes;
+   cin>> distance;
+
+   Time_to_get_minutes = distance * 2;
+   
+   cout<< Time_to_get_minutes <<" minutos" <<endl;
+    
+return 0;
+}
