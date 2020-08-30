@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int Spent_time, Avg_speed;
+  double Total_liters_needed;
+  cin>> Spent_time >> Avg_speed;
+
+  Total_liters_needed = (Avg_speed / 12.0) * Spent_time;
+
+  cout << fixed << setprecision(3) << Total_liters_needed <<endl;
+
+  return 0;
+}
