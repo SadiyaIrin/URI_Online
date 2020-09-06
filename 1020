@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int N,Y=0,M=0;
+  cin >> N;
+  Y = N / 365;
+  N = N % 365;
+  M = N / 30;
+  N = N % 30;
+  
+  cout<< Y <<" ano(s)\n" ;
+  cout<< M <<" mes(es)\n";
+  cout << N << " dia(s)\n";
+
+return 0;
+}
