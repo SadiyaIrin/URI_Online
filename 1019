@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int N,H=0,M=0;
+  cin >> N;
+  H = N / 3600;
+  N = N % 3600;
+  M = N / 60;
+  N = N % 60;
+  
+  cout<< H << ":" << M <<":" << N <<"\n";
+
+return 0;
+}
