@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+using namespace std;
+// 100,50,20,10,5,2,1, .50, .25, .10, .05, .01
+// 10000,5000,2000,1000,500,200,100,50,25,10,5,1
+
+int main() {
+  double input; // input = 576.73
+  int a,b,c,d,e,f,g,h,i,j,k,l,N;
+  cin >> fixed >> setprecision(2)>>input;
+  N = input * 100;
+  a = N / 10000;    N = N % 10000;
+  b = N / 5000;     N = N % 5000;
+  c = N / 2000;     N = N % 2000;
+  d = N / 1000;     N = N % 1000;
+  e = N / 500;      N = N % 500;
+  f = N / 200;      N = N % 200;
+  g = N / 100;      N = N % 100;
+  h = N / 50;       N = N % 50;
+  i = N / 25;       N = N % 25;
+  j = N / 10;       N = N % 10;
+  k = N / 5;        N = N % 5;
+
+  l = N;
+
+  cout<<"NOTAS:\n";
+  cout <<a<<" nota(s) de R$ 100.00\n";
+  cout <<b<<" nota(s) de R$ 50.00\n";
+  cout <<c<<" nota(s) de R$ 20.00\n";
+  cout <<d<<" nota(s) de R$ 10.00\n";
+  cout <<e<<" nota(s) de R$ 5.00\n";
+  cout <<f<<" nota(s) de R$ 2.00\n";
+
+  cout<<"MOEDAS:\n";
+  cout<<g<<" moeda(s) de R$ 1.00\n";
+  cout<<h<<" moeda(s) de R$ 0.50\n";
+  cout<<i<<" moeda(s) de R$ 0.25\n";
+  cout<<j<<" moeda(s) de R$ 0.10\n";
+  cout<<k<<" moeda(s) de R$ 0.05\n";
+  cout<<l<<" moeda(s) de R$ 0.01\n";
+
+  return 0;
+}
