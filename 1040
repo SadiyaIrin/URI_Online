@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  float A,B,C,D,E,Avg;
+
+  cin >> A >> B >> C >> D;
+  cout << fixed << setprecision(1);
+  Avg = (A*2 + B*3 + C*4 + D*1) / (10.0);
+   cout <<"Media: "<< Avg << endl;
+
+  if(Avg >= 7.0 )
+    cout <<"Aluno aprovado.\n";
+
+  else if(Avg < 5.0)
+    cout <<"Aluno reprovado.\n";
+  
+  else if(Avg >= 5.0 && Avg <= 6.9)
+  {
+    cout <<"Aluno em exame.\n";
+    cin >> E;
+    cout <<"Nota do exame: "<< E << endl;
+      if((Avg + E) / 2.0 >= 5.0)
+        cout <<"Aluno aprovado.\n";
+      else
+        cout <<"Aluno reprovado.\n";
+  
+  cout <<"Media final: "<< (Avg + E) / 2.0 << endl;
+
+  }
+  return 0;
+}
