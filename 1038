@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+  int X,Y;
+  cin >> X >> Y;
+  cout<<fixed<<setprecision(2);
+  
+  switch(X){
+
+    case 1:
+          cout <<"Total: R$ "<< Y * 4.00 << endl;
+          break;
+    case 2:
+          cout <<"Total: R$ "<< Y * 4.50 << endl;
+          break;
+    case 3:
+          cout <<"Total: R$ "<< Y * 5.00 << endl;
+          break;
+    case 4:
+          cout <<"Total: R$ "<< Y * 2.00 << endl;
+          break;
+
+    default: cout <<"Total: R$ "<< Y * 1.50 << endl;
+  }
+
+  return 0;
+}
