@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+  float a,b,c,Perimeter=0,Area=0;
+  cin >> a >> b >> c;
+  cout << fixed << setprecision(1);
+  if(a + b > c && b + c > a && c + a > b){
+    Perimeter = a + b + c;
+    cout << "Perimetro = "<< Perimeter <<endl; 
+  }
+  else{
+    Area = 0.5*(a+b) * c;
+    cout <<"Area = "<< Area << endl;
+  }
+
+    return 0;
+}
+    
